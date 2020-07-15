@@ -1,0 +1,127 @@
+.jumbotron{
+	background: url(../img/bg5.jfif) no-repeat;
+	height: 1000px;
+	background-size: 100% 100%;
+	color: #F5F5F5;
+	margin-bottom: 0px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.navbar-inverse{
+	background-image: linear-gradient(to right,#424f6f,#3c6384,#404467);
+}
+
+.jiange{
+	margin-top: 10%;
+}
+
+.progress,.progress-bar{
+	width: 80%;
+	height: 50px;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 5rem;
+	transition: all 0.3s;
+}
+
+.progress:hover,.progress-bar:hover{
+	transform: scale(1.1);
+}
+
+.progress{
+	background-color: #F7F7F7;
+	margin-left: 30px;
+}
+
+.progress-bar{
+	/* background-color: #3c763d; */
+	/* background: -webkit-gradient(linear,left top,right top,from(#34c2aa),to(#6cd557));
+	background: linear-gradient(to right,#34c2aa,#6cd557); */
+	background: -webkit-gradient(linear,left top,right top,from(#fa5956),color-stop(80%,#fb8650));
+	background: linear-gradient(to right,#fa5956,#fb8650 80%);
+}
+
+@media (min-width: 768px){
+	.navbar{
+		border-radius: 0px;
+	}
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background-color: transparent;
+}
+
+.thumbnail{
+	transition: all 0.3s;
+	background-color: skyblue;
+	background: -webkit-gradient(linear,left top,right top,from(#fa5956),color-stop(80%,#fb8650));
+	background: linear-gradient(to right,#fa5956,#fb8650 80%);
+}
+
+.thumbnail:hover{
+	transform: scale(1.1);
+}
+
+.thumbnail .caption{
+	color: #F9F9F9;
+}
+
+html{
+	background-image: linear-gradient(to right,#424f6f,#3c6384,#404467);
+	scroll-behavior: smooth;
+}
+
+p{
+	padding-left: 5%;
+}
+
+.bg2{
+	background: url(../img/space-ship.jfif);
+	height: 980px;
+	background-size: 100% 100%;
+	color: #F5F5F5;
+}
+
+
+.jiange2{
+	padding-top:100px;
+}
+
+.p2{
+	margin-bottom: 30px;
+}
+
+.foot{
+	/* display: block; */
+	position: fixed;
+	right: 10px;
+	bottom: 6.25rem;
+	width: 66px;
+	text-align: center;
+}
+
+a.footer{
+	cursor: pointer;
+	color: #FFFFFF;	
+	display: block;
+	text-decoration: none;
+	background-color: deepskyblue;
+	padding: 10px 0;
+	border-bottom: 1px solid yellowgreen;
+}
+
+.foo2{
+	border-radius: 10px 10px 0 0;
+}
+
+.foo3{
+	border-radius: 0 0 10px 10px;
+}
+
